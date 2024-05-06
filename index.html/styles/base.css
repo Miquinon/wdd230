@@ -19,7 +19,6 @@ header{
     background-color: rgb(157, 129, 80);
     padding-bottom: 20px;
     padding-top: 20px;
-   
     align-items: center;
     
 }
@@ -27,7 +26,7 @@ header{
 h1{
     color: white;
     text-align: left;
-    margin-left: -50px;
+   
 }
 nav{grid-template-columns: auto auto;
     grid-column-start: 2;
@@ -35,6 +34,10 @@ nav{grid-template-columns: auto auto;
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
+}
+
+nav a{
+    display: inline;
 }
 
 a{
@@ -62,11 +65,12 @@ h2{margin-top: 30px;
 }
 
 .card li{
-    list-style-type: disc;
+    list-style-type: circle;
 }
 
 .card li a{
     color:black
+    
 }
 
 .card li a:hover{
