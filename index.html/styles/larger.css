@@ -1,12 +1,16 @@
-@media (min-width: 640px) {
+@media (max-width: 640px) {
     main{
         display: flex;
-        justify-content: space-evenl;
+        justify-content: space-evenly;
     }
         nav ul {
             display: flex;
         }
         nav ul li {
             flex: 1 1 100%;
+        }
+
+        nav a{
+            display: block;
         }
     }
