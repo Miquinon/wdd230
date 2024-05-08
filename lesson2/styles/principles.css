@@ -14,7 +14,7 @@ header{
 }
 
 img{
-    width: 300px;
+    width: 100%;
     padding-top: 5px;
 }
 
@@ -48,6 +48,7 @@ footer{
 @media screen and (max-width:900px){
     main{display: grid;
         grid-template-columns: auto auto;
+        
     }
     section{
         width:auto
@@ -62,8 +63,12 @@ footer{
 @media screen and (max-width:700px){
     main{display: grid;
         grid-template-columns: auto;
+       
     }
 
+    section:nth-child(3) {
+		grid-column: span 1;
+	}
     section{
         width:auto
     }

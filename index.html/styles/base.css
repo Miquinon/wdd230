@@ -9,12 +9,13 @@ body {
 img{margin-left: 40px;
     width: 200px;
 }
-header{
+header{display: flex;
     background-color: rgb(157, 129, 80);
     padding-bottom: 20px;
     padding-top: 20px;
     align-items: center;
-    
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 h1{
@@ -54,7 +55,7 @@ h2{grid-column: 1/span 2;
 
 .card{margin-top: 40px;
     border: solid black 1px;
-   grid-column: 1/2;
+   /*grid-column: 1/2;*/
 }
 
 .card li{
