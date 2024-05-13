@@ -24,7 +24,7 @@ h1{
    
 }
 
- #menu {
+ #hamButton {
 	font-size: 1.5rem;
 	border: 0;
 	background: none;
@@ -34,15 +34,19 @@ h1{
 	right: 15px;
 }
 
-#menu::before {
+.navigation{
+    display: flex;
+}
+
+#hamButton::before {
 	content: "☰";
 }
 
-#menu.open::before {
+#hamButton.open::before {
 	content: "✖️";
 }
 
-#menu{
+#hamButton{
     display:none;
 }
 

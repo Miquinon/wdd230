@@ -23,8 +23,12 @@
             text-align: center;
         }
         
-        #menu{
+        #hamButton{
             display:block;
+        }
+
+        .navigation{
+            display: block;
         }
 
         iframe{
