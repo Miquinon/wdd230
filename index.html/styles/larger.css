@@ -1,6 +1,5 @@
 @media (max-width: 640px) {
     main{
-       /* display: flex; */
         justify-content: space-evenly;
         grid-template-columns: 1fr;
     }
@@ -25,12 +24,11 @@
         
         #hamButton{
             display:block;
+            position: fixed;
+            top: 15px;
         }
 
-        .navigation{
-            display: block;
-        }
-
+       
         iframe{
             width: 87%;
         }

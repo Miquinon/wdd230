@@ -11,5 +11,5 @@ hamButton.addEventListener('click', () => {
 	else {
 		navigation.style.display="block";
 	}
-});
+})
 
