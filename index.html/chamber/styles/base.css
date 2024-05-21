@@ -157,10 +157,13 @@ footer a{
 
 #menu::before {
 	content: "☰";
+    font-size: 30px;
 }
 
 #menu.open::before {
-	content: "✖️";
+	content: "☓";
+    font-size: 30px;
+    color: #EBEBEB;
 }
 
 #menu{
