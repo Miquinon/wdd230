@@ -12,9 +12,9 @@ header h1{
 }
 
 
-.navigation{display: block;
+.navigation a{display: block;
     width: 90%;
-    margin-left: 10px;
+    margin-left: 14px;
     padding-left: 10px;
 }
 
@@ -25,7 +25,8 @@ header h1{
 }
 
 .navigation ul a{
-    padding-top: 35px;
+    padding-top: 15px;
+    text-align: center;
 }
 .focus, .spotlight, footer{
     display: block;
