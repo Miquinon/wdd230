@@ -53,9 +53,15 @@ header h1{
 
 .hero{
 
-    border: 2px solid #401201;
-    margin: 10px;
-    height: 300px;;
+    margin-top: 10px;
+    height: 600px;
+}
+
+.hero img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
 }
 
 .about{
@@ -79,9 +85,8 @@ header h1{
 .about img{
     margin: 10px;
     padding: 10px;
-    border: 2px solid #401201;
-    height: 200px;
-    width: 40%;
+    height: 400px;
+    width: 25%;
 }
 
 
