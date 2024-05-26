@@ -28,9 +28,41 @@ header h1{
     padding-top: 15px;
     text-align: center;
 }
-.focus, .spotlight, footer{
+
+.hero{
+    height: 275px;
+}
+.hero img{
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    height: 250px;
+}
+
+
+.focus, .about, .spotlight, footer{
     display: block;
     text-align: center;
+}
+
+.about{
+    height: 500px;
+}
+.about p{
+    margin: 10px;
+    padding: 10px;
+    width:90%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.about img{
+    margin: 10px;
+    padding: 10px;
+    height: 250px;
+    width: 80%;
 }
 
 footer{

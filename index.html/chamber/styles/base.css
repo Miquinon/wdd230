@@ -30,7 +30,7 @@ header h1{
     color: #401201;
 }
 
-.navigation{
+.navigation{display: flex;
     color: #EBEBEB;
     background-color:  #401201;
     padding:10px;
@@ -41,6 +41,8 @@ header h1{
 .navigation ul{display: flex;
     margin: auto;
     width: 50%;
+    flex-direction: row;
+    list-style-type: none;
 }
 
 .navigation a{
@@ -49,7 +51,10 @@ header h1{
     padding-right: 10%;
     padding-left: 10%;
     margin: 2%;
+    list-style-type: none;
 }
+
+
 
 .hero{
 
@@ -61,7 +66,7 @@ header h1{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 90%;
+    width: 95%;
 }
 
 .about{
@@ -70,45 +75,69 @@ header h1{
     align-items: center;
     justify-content: center;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
+    background-color:#E3D1C4 ;
+    width: 90%;
     
 }
 
 .about p{
     margin: 10px;
     padding: 10px;
-    border: 2px solid #401201;
-    height: 200px;
+    height: 275px;
     width: 40%;
+    font-size: 25px;
+    text-align: justify;
 }
 
 .about img{
     margin: 10px;
     padding: 10px;
     height: 400px;
-    width: 25%;
+    width: 30%;
 }
 
 
 .focus{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin: 30px;
-    padding: 10px;  
+    padding: 10px; 
+    
 }
 
-.focus p{
+.focus p{grid-row: 2/2;
    padding-left: 10px;
+   padding-right: 10px;
+   margin: auto;
+   width: 75%;
+   text-align: justify;
+}
+
+.lead {grid-column: 1/1;
+    padding-left: 10px;
    padding-right: 10px;
    margin: auto;
    
 }
 
-h2{
+.educate{grid-column: 2/2;
     padding-left: 10px;
    padding-right: 10px;
    margin: auto;
+   
+
+}
+
+.support {
+    grid-column: 3/3;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    
 }
 
 .action{display:flex;
