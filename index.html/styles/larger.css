@@ -21,6 +21,32 @@
         header h1{
             text-align: center;
         }
+
+        picture img{
+            width: 400px;
+            height:auto;
+            
+        }
+
+        .hero-label {
+            position: absolute;
+            top: 350px;
+            left: 60px;
+            background: radial-gradient(#fff, #4D5B97);
+            border: 1px solid rgba(0,0,0,.75);
+            padding: 10px;
+            box-shadow: 0 0 3rem #fff;
+            opacity: 0.75;
+            /* Buenas */
+        }
+        
+        .hero-label p {
+            margin: 0;
+            padding: .25rem;
+            font-weight: 700;
+            font-size: 10px;
+        }
+
         
         #hamButton{
             display:block;

@@ -18,6 +18,37 @@ header{display: flex;
     padding-right: 30%;
 }
 
+
+
+picture img{display: block;
+             margin: 0 auto;
+            width: 960px;
+            height: auto;
+            border-radius: 5px;
+            padding-top: 20px;
+}
+
+
+.hero-label {
+	position: absolute;
+	top: 350px;
+	left: 400px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.hero-label p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+
 h1{
     color: white;
     text-align: left;
