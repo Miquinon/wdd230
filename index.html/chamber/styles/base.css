@@ -118,17 +118,22 @@ header h1{
 }
 
 .lead {grid-column: 1/1;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
 }
 
 .educate{grid-column: 2/2;
-    padding: 10px;
-   
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
 }
 
 .support {
     grid-column: 3/3;
-    padding: 10px;  
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
 }
 
 .action{display:flex;

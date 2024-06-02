@@ -66,6 +66,25 @@ header h1{
     width: 65%;
 }
 
+.lead {
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.educate{
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.support {
+    padding: 20px;
+    margin: 10px;
+   
+}
+
+
 .spotlight img{
     margin-top: 20px;
     margin-bottom: 20px;
