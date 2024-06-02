@@ -42,9 +42,10 @@ header h1{
 }
 
 
-.focus, .about, .spotlight, footer{
+.focus, .about, .spotlight, .spotlight p,footer{
     display: block;
     text-align: center;
+    
 }
 
 .about{
@@ -62,18 +63,28 @@ header h1{
     margin: 10px;
     padding: 10px;
     height: 250px;
-    width: 80%;
+    width: 65%;
 }
 
-footer{
-    padding-bottom: 40px;
+.spotlight img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width: 300px;
+    height:auto;
+
 }
 
-footer a{
-    padding-top: 10px;
-    margin-bottom: 25px;
-   
+.spotlight p{
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-left:20px;
 }
+
+
 #lastModified{
     margin-bottom: 25px;
 }

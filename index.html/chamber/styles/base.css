@@ -118,26 +118,17 @@ header h1{
 }
 
 .lead {grid-column: 1/1;
-    padding-left: 10px;
-   padding-right: 10px;
-   margin: auto;
-   
+    padding: 10px;
 }
 
 .educate{grid-column: 2/2;
-    padding-left: 10px;
-   padding-right: 10px;
-   margin: auto;
+    padding: 10px;
    
-
 }
 
 .support {
     grid-column: 3/3;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: auto;
-    
+    padding: 10px;  
 }
 
 .action{display:flex;
@@ -157,6 +148,27 @@ header h1{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
+   
+    
+}
+
+.spotlight img{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    width: 400px;
+    height:auto;
+
+}
+
+.spotlight p{justify-self: start;
+    
+    height: 200px;
+    width: 500px;
+    margin-top: 20px;
+    padding: 20px;
+    align-self: center;
+    margin-left: -45px;
 }
 
 .weather{
