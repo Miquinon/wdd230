@@ -1,7 +1,7 @@
-const input = document.getElementById("favchap");
+const input = document.getElementById("fav-chap");
 const button = document.querySelector("button");
 const list = document.querySelector("ul");
-const  clearButton= document.querySelector("#clearAll");
+const  clearButton= document.querySelector("#clear-all");
 
 
 button.addEventListener('click', () => {

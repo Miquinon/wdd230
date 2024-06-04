@@ -1,6 +1,6 @@
 // lastModified
 let text = document.lastModified;
-document.getElementById("lastModified").innerHTML = "Last Modification: " + text;
+document.getElementById("last-modified").innerHTML = "Last Modification: " + text;
 
 // Copyright
-document.getElementById("copyrightYear").innerHTML = new Date().getFullYear();
+document.getElementById("copy-right-year").innerHTML = new Date().getFullYear();
