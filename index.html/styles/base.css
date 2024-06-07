@@ -145,6 +145,15 @@ h3{
     text-align: center;
    
 }
+.label{
+font-weight: bold;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
 
 iframe{
     
