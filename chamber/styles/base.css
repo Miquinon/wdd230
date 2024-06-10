@@ -55,7 +55,14 @@ header h1{
     list-style-type: none;
 }
 
-
+.dark-mode{
+    width: 40px;
+    height: 40px;
+    background-color: #E3D1C4;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
 
 .hero{
 
@@ -185,6 +192,7 @@ header h1{
     margin-top: 5%;
     margin-bottom: 5%;
     height: 300px;
+    padding-bottom: 10px;
 }
 
 footer{
