@@ -10,7 +10,7 @@ h1, h2{
      color: #401201;
 }
 
-p{  color: #401201;
+p, figcaption{  color: #401201;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -40,8 +40,9 @@ header h1{
 
 .navigation ul{display: flex;
     margin: auto;
-    width: 50%;
+    width: 70%;
     flex-direction: row;
+    justify-content: space-around;
     list-style-type: none;
 }
 

@@ -1,0 +1,32 @@
+.container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1800px;
+    margin: 100px;
+    column-gap: 20px;
+    
+}
+.demographics, .attractions , .events {
+    height: 450px;
+    border-top: solid 2px #401201;
+    border-bottom: solid 2px #401201;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.photo-gallery{
+    margin-left: 50px;
+}
+
+.photo-gallery img{
+    margin-top: 50px;
+}
+
+#disc-visit p{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}

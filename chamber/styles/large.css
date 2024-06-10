@@ -19,7 +19,7 @@ header h1{
 }
 
 .navigation ul{display: block;
-    margin-left: 0;
+    margin-left: 50px;
     padding-left: 5px;
    
 }
