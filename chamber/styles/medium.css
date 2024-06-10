@@ -34,3 +34,27 @@
     border-radius: 15px 250px;
 
 }
+
+@media (max-width: 640px) {
+    .container-1{
+        display: block;
+        width: 600px;
+        margin: 75px;
+    }
+
+    
+    .demographics, .attractions , .events{    
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .photo-gallery img{
+        margin-top: 50px;
+        width: 350px;
+        height: 175px;
+    }
+
+    .photo-gallery img:hover {
+        border-radius: 0%;
+    }
+}
