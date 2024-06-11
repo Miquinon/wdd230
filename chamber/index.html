@@ -18,10 +18,10 @@
     <link rel="icon" href="favicon.ico">
 
 </head>
-<main>
+
 <body>
     <header>
-        <img src="images/fwcc-logo.png" alt="logo for Fort Worth Chamber of Commerce">
+        <img src="images/fwcc-logo.webp" alt="logo for Fort Worth Chamber of Commerce">
         <h1>Fort Worth Chamber of Commerce</h1>
 
     </header>
@@ -41,16 +41,19 @@
         🌑
     </button>
 
-
+    <main>
     <section class="hero">
-
-        <img src="images/fw-hero.jpg" alt="fort worth by a river and bridge" height="600">
-
+        <picture>
+            
+            <srcset="images/fw-hero-small.webp" width="400" media="(max-width: 600px)">
+            <srcset="images/fw-hero-medium.webp" width="600" media="(max-width: 800px)">
+            <img src="images/fw-hero-large.webp" alt="fort worth by a river and bridge" width="600" height="600">    
+        </picture>
     </section>
 
     <section class="about">
 
-        <img src="images/fw-about.jpg" alt="fort worth stock yards and howdy sign">
+        <img src="images/fw-about.webp" alt="fort worth stock yards and howdy sign">
         <p>The Fort Worth Chamber of Commerce works together with local business owners to grow and support one another. 
             Together we promote and support each other through events, sponsorships, and networkings. We educate, promote, 
             and help change local policies to expand local businesses and help our communities.</p>
@@ -77,10 +80,10 @@
     </section>
 
     <section class="spotlight">
-        <img src="images/spot-light-1.jpg" alt="photo of spot light chamber member">
+        <img src="images/spot-light-1.webp" alt="photo of spot light chamber member">
         <p>Information on spotlight member</p>
 
-        <img src="images/spot-light-2.jpg" alt="photo of spot light chamber member">
+        <img src="images/spot-light-2.webp" alt="photo of spot light chamber member">
         <p>Information on potlight member</p>
 
     </section>

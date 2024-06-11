@@ -1,7 +1,6 @@
 const darkmode = document.querySelector(".dark-mode");
 const main = document.querySelector("main");
 let paragraphs = document.querySelectorAll("p");
-let h1s = document.querySelectorAll("h1");
 let h2s = document.querySelectorAll("h2");
 let about = document.querySelector(".about");
 
@@ -14,9 +13,7 @@ darkmode.addEventListener("click", () => {
         paragraphs.forEach(paragraph => {
             paragraph.style.color = "#fff";
         });
-        h1s.forEach(h1 => {
-            h1.style.color = "#fff";
-        });
+        
         h2s.forEach(h2 => {
             h2.style.color = "#fff";
         });
@@ -28,9 +25,7 @@ darkmode.addEventListener("click", () => {
         paragraphs.forEach(paragraph => {
             paragraph.style.color = "#401201";
         });
-        h1s.forEach(h1 => {
-            h1.style.color = "#401201";
-        });
+        // 
         h2s.forEach(h2 => {
             h2.style.color = "#401201";
         });

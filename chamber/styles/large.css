@@ -121,17 +121,21 @@ header h1{
 }
 
 
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 1000px) {
+    .hero{
+        height: 300px;
+    }
+    .hero img{
+        margin-top: 20px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+        height: 250px;
+    }
+    
 }
