@@ -1,0 +1,29 @@
+table, th, td {
+    border: 3px solid green;
+    border-collapse: collapse;
+  }
+
+  table{
+    width: 30%;
+  }
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+      color: purple;
+      font-size: 15px;
+  }
+
+  .head{
+    background-color: green;
+    color: white;
+  }
+
+  tbody{
+    color: purple;
+    text-align: center;
+  }
+
+  tbody tr:nth-child(even){
+    background-color: yellow;
+  }
