@@ -3,16 +3,49 @@
         justify-content: space-evenly;
         grid-template-columns: 1fr;
     }
-        nav ul {
-            display: flex;
+        .navigation {
+            display: block;
+            padding-left: 100px;
         }
-        nav ul li {
-            flex: 1 1 100%;
+        .navigation li{
+            margin: 15px;
         }
 
-        nav a{
+        #hamButton {
+            font-size: 1.5rem;
+            border: 0;
+            background: none;
+            color: #000;
+             position: fixed;
+            top: 15px;
+            right: 15px;
+        }
+
+        #hamButton::before {
+            content: "☰";
+        }
+        
+        #hamButton.open::before {
+            content: "✖️";
+        }
+        
+        #hamButton{
+            display:none;
+        }
+        
+        .open nav {
             display: block;
         }
+        
+        .open nav a{
+            display: block;
+            width: 100%;
+          } 
+
+
+
+
+
         header {display: block;
             text-align: center;
             padding-left: 0%;
@@ -50,7 +83,7 @@
         
         #hamButton{
             display:block;
-            position: fixed;
+            position: absolute;
             top: 15px;
         }
 
@@ -64,4 +97,5 @@
 
 
     }
+   
 
