@@ -11,14 +11,15 @@
             margin: 15px;
         }
 
-        #hamButton {
-            font-size: 1.5rem;
+        #hamButton {display: block;
+            font-size: 40px;
             border: 0;
             background: none;
-            color: #000;
-             position: fixed;
+            color: #401201;
+            position: absolute;
             top: 15px;
             right: 15px;
+            
         }
 
         #hamButton::before {
@@ -27,11 +28,9 @@
         
         #hamButton.open::before {
             content: "✖️";
+            
         }
         
-        #hamButton{
-            display:none;
-        }
         
         .open nav {
             display: block;
@@ -41,9 +40,6 @@
             display: block;
             width: 100%;
           } 
-
-
-
 
 
         header {display: block;
@@ -81,13 +77,6 @@
         }
 
         
-        #hamButton{
-            display:block;
-            position: absolute;
-            top: 15px;
-        }
-
-       
         iframe{
             width: 87%;
         }

@@ -1,0 +1,75 @@
+:root {
+    --color-1: rgb(20, 55, 24);
+    --color-2: white;
+    --width: 400px;
+}
+
+
+
+#thanks, {
+    height: 300px;
+    
+}
+
+#thanks h2{
+    border-bottom: none;
+    color:var(--color-1);
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+#rate{
+    display: block;
+    width: var(--width);
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+#rate fieldset{
+    margin: 2rem 0;
+    border: 1px solid var(--color-1);
+    border-radius: 6px;
+   
+}
+
+#rate h1{
+    color: var(--color-1);
+}
+#rate legend{
+    color: var(--color-1);
+    padding: 0 .5rem;
+
+}
+
+#rate label{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+
+}
+
+#rate datalist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 200px;
+  }
+  #rate input[type="range"]{
+    width: 200px;
+  }
+
+  #rate input[type="text"],
+  #rate input[type="password"],
+  #rate input[type="email"]{
+    padding:15px;
+  }
+
+  #rate input[type="submit"]{
+    padding: 15px;
+    width: 400px;
+    background-color: var(--color-1);
+    color: var(--color-2);
+  }
+
+  

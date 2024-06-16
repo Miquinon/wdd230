@@ -11,5 +11,14 @@ hamButton.addEventListener('click', () => {
 	else {
 		navigation.style.display="block";
 	}
-})
+	function resetMenu(){
+		if(window.innerWidth >= 800){
+			document.querySelector('.navigation').style.display= 'flex';
+		}	else if (window.innerWidth < 800) {
+			document.querySelector('.navigation').style.display= 'none';
+		}
+	}
+	window.addEventListener('resize', resetMenu);
+});
+
 
