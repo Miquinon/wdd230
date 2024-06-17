@@ -141,3 +141,53 @@ header h1{
     }
     
 }
+
+
+@media (max-width: 640px){
+    .joining{
+        display: block;
+    }
+    
+    .joining h1{
+        text-align: center;
+        font-size: x-large;
+    }
+
+    #join fieldset{
+        width: 400px;
+    }
+
+    #join input[type="text"],
+    #join input[type="email"],
+    #join input[type="tel"],
+    #join select,
+    #join area,
+    #join .description, 
+    #join input[type="submit"]{
+        width: 350px;
+    }
+    #join input[type="submit"]{
+        margin-left: 8%;
+        margin-bottom: 5%;
+        background-color: #E1A8A8;
+        width: 400px;
+    }
+
+    .nonp p, .bronze p, .silver p, .gold p{
+        width: 400px;
+        height: 300px;
+        margin-left: 4%;
+
+    }
+
+    #join legend{
+        font-size: larger;
+    }
+
+    #join label{
+        color:#401201
+    }
+
+
+
+}

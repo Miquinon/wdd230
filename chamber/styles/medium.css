@@ -74,9 +74,9 @@
     .photo-gallery img:hover {
         border-radius: 0%;
     }
+
+
 }
-
-
 
 /* join page styles */
 
@@ -163,8 +163,11 @@ border: 2px solid #401201;
 background-color: #E3D1C4;
 color:#401201;
 width: 600px;
-height: 300px;
+height: 200px;
 margin-top: 0;
+padding: 5%;
+font-size: larger;
+line-height: 40px;
 }
 
 .membership{

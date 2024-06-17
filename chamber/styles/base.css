@@ -5,12 +5,12 @@
 /* colors:  Text- #401201, Footer- #401201/ #EBEBEB, 
         Background- #E3D1C4, Accents: #E1A8A8 */
 
-h1, h2{
+h1, h2, #join legend{
     font-family: 'Baskerville', serif;
      color: #401201;
 }
 
-p, figcaption{  color: #401201;
+p, figcaption, label, #join input[type="submit"]{  color: #401201;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
