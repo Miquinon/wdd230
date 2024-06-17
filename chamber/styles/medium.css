@@ -1,3 +1,7 @@
+
+
+/* styles for the discovery page */
+
 .container-1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -35,6 +39,19 @@
 
 }
 
+/* Thank you page for the join submission */
+#thank-you {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    height: 350px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+
+/* mobile screen for discovery page */
 @media (max-width: 640px) {
     .container-1{
         display: block;
@@ -57,4 +74,104 @@
     .photo-gallery img:hover {
         border-radius: 0%;
     }
+}
+
+
+
+/* join page styles */
+
+.joining{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.joining h1{
+    grid-column: span 2;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#join{
+    grid-column: 1/1;
+    width: 500px;
+    justify-self: center;
+}
+
+.membership{
+    grid-column: 2/2;
+}
+
+.membership h1{
+    font-size: large;
+}
+
+#join legend{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#join input[type="text"],
+#join input[type="email"],
+#join input[type="tel"],
+#join select,
+#join area,
+#join .description, 
+#join input[type="submit"]{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    
+}
+#join fieldset{
+    padding: 20px;
+    margin: 5%;
+    width: 450px;
+    border-radius: 30px ;
+    justify-self: center;
+    background-color: #E3D1C4;
+    border: 2px solid #401201;
+}
+
+#join input[type="submit"]{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    background-color: #E1A8A8;
+}
+
+#join .description{
+    margin-left: -10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#join #area{
+    width: 300px;
+}
+
+.membership h1{
+    font-size: xx-large;
+}
+
+.nonp p, .bronze p, .silver p, .gold p{
+border: 2px solid #401201;
+background-color: #E3D1C4;
+color:#401201;
+width: 600px;
+height: 300px;
+margin-top: 0;
+}
+
+.membership{
+    justify-self: center;
+}
+
+.membership h2{
+    text-align: center;
+    margin-bottom: 0;
 }

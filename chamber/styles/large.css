@@ -1,3 +1,5 @@
+/* mobile view of chamber home page */
+
 @media (max-width: 640px) {
 
 header{
@@ -124,7 +126,7 @@ header h1{
 }
 
 
-
+/* medium view of hero image */
 @media (max-width: 1000px) {
     .hero{
         height: 300px;
