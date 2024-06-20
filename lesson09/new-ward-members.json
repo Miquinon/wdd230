@@ -24,6 +24,16 @@
             "name": "Anthony Quinonez",
             "gender": "Male",
             "birthDate": "1991-02-28"
+        },
+        {
+            "name": "Maria Quinonez",
+            "gender":"Female",
+            "birthDate": "1971-07-21"
+        },
+        {
+            "name": "Michael Quinonez",
+            "gender": "Male",
+            "birthDate": "1969-01-01"
         }
 
 
