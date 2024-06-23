@@ -1,0 +1,36 @@
+main{
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#cards{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  column-gap: 30px;
+  
+}
+
+#cards section{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(20, 55, 24);
+    height: 70px;
+   
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(20, 55, 24);
+    height: 50px;
+    color: white;
+}
