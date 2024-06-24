@@ -16,13 +16,15 @@ const displayLinks = function(data) {
     for (let index = 0; index < data.length; index++) {
         let activityList = document.createElement('li');
         activityList.style.display = "flex";
+        activityList.style.lineHeight = "2.5";
         activityList.innerHTML = `${data[index].lesson}: `;
         data[index].links.forEach((link, i) => {
             let activityLink = document.createElement('a');
-            
+            activityLink.style.padding = "0";
+            activityLink.style.lineHeight = "2.5";
             activityLink.href = link.url;
             activityLink.title = link.title;
-            activityLink.innerHTML = `${link.title} &nbsp &nbsp &nbsp |`;
+            activityLink.innerHTML = ` &nbsp ${link.title} &nbsp |`;
             activityLink.target = '_blank';
            
 
