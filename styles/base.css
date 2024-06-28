@@ -130,9 +130,19 @@ h3{
     text-align: center;
    
 }
+
+.card h4{
+    text-align: center;
+}
+
+.card p{
+    display: flex;
+    justify-content: center;
+}
+
 .label{
     font-weight: bold;
-    text-align: center;
+    
 }
 
 #visits {

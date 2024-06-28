@@ -1,12 +1,12 @@
 {
     "members":[
         {
+            "image": "images/bell-1.webp",
             "name": "Bell",
             "address": "3255 Bell Flight Boulevard Fort Worth, TX 76118",
             "phone": "817 280-2011",
-            "website": "https://www.bellflight.com/",
-            "image": "images/bell-1.webp",
-            "membership": "Gold"
+            "membership": "Gold",
+            "website": "https://www.bellflight.com/"
 
         },
         {
@@ -14,7 +14,7 @@
             "address": "2650 Lou Menk Dr, Fort Worth, TX 76131",  
             "phone": "1-800-832-5452",
             "website": "https://www.bnsf.com/",
-            "image": "",
+            "image": "images/train-1.webp",
             "membership": "Gold"
         },
         {
@@ -22,7 +22,7 @@
             "address": "201 N. Rupert St., Suite 107 Fort Worth, TX 76107",  
             "phone": "817-258-8000",
             "website": "https://www.unitedwaytarrant.org/?gad_source=1&gclid=Cj0KCQjwj9-zBhDyARIsAERjds1gZaGxdsIflhkSQYEQFTpZX9YOWHcAhAbgYRcT2aSbJCOfhVr5odwaAvgIEALw_wcB",
-            "image": "",
+            "image": "images/united-1.webp",
             "membership": "Non-Profit"
         },
         {
@@ -30,7 +30,7 @@
             "address": "1001 E. Lookout Dr, Tower A, Ste 700 Richardson, TX 75082",  
             "phone": " 214-932-6600",
             "website": "https://www.texascapitalbank.com/",
-            "image": "",
+            "image": "images/texas-1.webp",
             "membership": "Bronze"
         },
         {
@@ -38,7 +38,7 @@
             "address": "122 East Exchange Ave. Suite 420 Fort Worth, TX 76164",  
             "phone": "817-834-3152    ",
             "website": "https://apha.com/",
-            "image": "",
+            "image": "images/horse-1.webp",
             "membership": "Silver"
         },
         {
@@ -46,7 +46,7 @@
             "address": "2325 Dean Way, Ste. 100 Southlake TX 76092",  
             "phone": "(682) 831-9670",
             "website": "https://chickasaw.net/",
-            "image": "",
+            "image": "images/indian.webp",
             "membership": "Silver"
         },
         {
@@ -54,7 +54,7 @@
             "address": "1101 NE 23rd St, Fort Worth, TX 76164",  
             "phone": " 817-916-1319",
             "website": "https://www.standardmeat.com/",
-            "image": "",
+            "image": "images/meat.webp",
             "membership": "Bronze"
         }
     ]
