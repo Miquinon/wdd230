@@ -145,6 +145,21 @@ h3{
     
 }
 
+
+#weather-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+figure img{
+    width: 70px;
+    margin-left: 0;
+}
+
+figure{
+    text-align: center;
+}
+
 #visits {
 	color: navy;
 	font-weight: bolder;
