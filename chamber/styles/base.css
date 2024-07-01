@@ -176,32 +176,41 @@ header h1{
    
 }
 
+.spot-heading{
+    background-color: #E3D1C4;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    width:1500px;
+    margin-left: 5%;
+    border-bottom: 2px solid #401201;
+
+
+}
+
 .spotlight{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+   flex-direction: row;
     justify-items: center;
-   
+    justify-content: space-evenly;
+    padding: 20px;
     
 }
 
-.spotlight img{
-    margin-top: 20px;
-    margin-left: 60px;
-    margin-bottom: 20px;
-    width: 400px;
-    height:auto;
-
+.spotlight section{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
-.spotlight p{justify-self: start;
-    text-align: justify;
-    width: 600px;
-    margin-top: 20px;
-    padding: 20px;
-    align-self: center;
-    margin-left: -45px;
+.spotlight section img{
+    height: 600px;
+    width: 300px;
+    
 }
+
 
 .weather{display: grid;
     grid-template-columns: 300px 1fr;
