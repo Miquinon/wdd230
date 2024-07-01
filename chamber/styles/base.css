@@ -5,7 +5,7 @@
 /* colors:  Text- #401201, Footer- #401201/ #EBEBEB, 
         Background- #E3D1C4, Accents: #E1A8A8 */
 
-h1, h2, #join legend, button{
+h1, h2, #join legend, button, h3{
     font-family: 'Baskerville', serif;
      color: #401201;
 }

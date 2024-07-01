@@ -218,3 +218,25 @@ header h1{
 
 
 }
+
+/* directory mobile view */
+@media (max-width: 640px) {
+
+    .list{
+        display: block;
+        text-align: center;
+    }
+    .list section{
+        display: block;
+        margin-left: 0;
+        margin-right: 10%;
+    }
+
+    .grid section{
+        border: #401201 2px solid;
+    }
+
+    .grid{
+        border-top: none;
+    }
+}
