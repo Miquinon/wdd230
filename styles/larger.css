@@ -23,7 +23,7 @@
         }
 
         #hamButton::before {
-            content: "☰";
+            content: "☰" ;
         }
         
         #hamButton.open::before {
@@ -32,11 +32,11 @@
         }
         
         
-        .open nav {
+        .open .navigation {
             display: block;
         }
         
-        .open nav a{
+        .open .navigation a{
             display: block;
             width: 100%;
           } 

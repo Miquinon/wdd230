@@ -37,7 +37,7 @@ picture img{
 
 .hero-label {
 	position: absolute;
-	top: 350px;
+	top: 400px;
 	left: 400px;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
@@ -80,15 +80,18 @@ h1{
 #hamButton{
     display: none;
 }
-nav a{
-    display: inline;
-}
 
-a{
+
+a{  
     color: white;
     text-decoration: none;
     display: block;
     padding: 10px 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(157, 129, 80);
 }
 
 main{display: grid;
@@ -107,10 +110,6 @@ h2{grid-column: 1/span 2;
     border: solid black 1px;
    
 } 
-
-.card li{
-    list-style-type: circle;
-}
 
 .card li a{
     color:black
@@ -156,9 +155,7 @@ figure img{
     margin-left: 0;
 }
 
-#visits {
-	color: navy;
-	font-weight: bolder;
+.visits {
 	font-size: larger;
     text-align: center;
 }
