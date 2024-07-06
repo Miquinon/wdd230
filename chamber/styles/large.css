@@ -31,6 +31,26 @@ header h1{
     text-align: center;
 }
 
+#menu::before {
+	content: "☰";
+    font-size: 30px;
+}
+
+#menu.open::before {
+	content: "☓";
+    font-size: 30px;
+    color: #EBEBEB;
+}
+
+.open .navigation {
+	display: block;
+}
+
+.open .navigation a{
+    display: block;
+    width: 100%;
+  } 
+
 .hero{
     height: 275px;
 }
