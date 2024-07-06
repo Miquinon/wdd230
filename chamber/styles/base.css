@@ -18,7 +18,8 @@ p, figcaption, label, #join input[type="submit"], h4, #forecast-container,#curre
 
 header{
     display: flex;
-    align-content: center;
+    align-items: center;
+    margin-top: 15px;
     margin-left: 15%;
     margin-bottom: 10px;
 }
@@ -56,11 +57,11 @@ header h1{
 }
 
 .dark-mode{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: #E3D1C4;
     position: absolute;
-    top: 90px;
+    top: 25px;
     right: 30px;
 }
 
@@ -204,6 +205,8 @@ header h1{
     display: flex;
     flex-direction: column;
     justify-items: center;
+    background-color: white;
+    padding: 10px;
 }
 
 .spotlight section img{

@@ -61,7 +61,7 @@
     
 }
 
-.joining h1{
+.joining h2{
     grid-column: span 2;
     margin: 2%;
     padding: 2%;
@@ -80,12 +80,8 @@
     justify-self: start;
 }
 
-.membership h1{
-    font-size: large;
-}
-
 #join legend{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -130,8 +126,14 @@
     width: 300px;
 }
 
-.membership h1{
-    font-size: xx-large;
+.membership h2{
+    font-size: xx-larger;
+}
+
+.membership h4{
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 .nonp p, .bronze p, .silver p, .gold p{
@@ -148,19 +150,25 @@ line-height: 40px;
 
 
 
-.membership h2{
+.membership h3{
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    font-size: xx-large;
 }
 
 /* directory styling */
+
+#member-container{
+    border-top: 2px solid #401201;
+}
 
 .grid{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    border-top: 2px solid #401201;
+    
 
 }
 
@@ -171,7 +179,7 @@ line-height: 40px;
    margin: 5px;
    border-right: 2px solid #401201;
    border-left: 2px solid #401201;
-
+   background-color: white;
     
 }
 
@@ -196,7 +204,7 @@ line-height: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10%;
+    margin-left: 0%;
 }
 
 .list section{
@@ -204,8 +212,10 @@ line-height: 40px;
     grid-template-columns: 1fr 1fr 300px;
     max-width: 1300px;
     margin: 10px;
+    margin-left: 10%;
     border: 2px solid #401201;
     padding: 10px;
+    background-color: white;
 
 }
 

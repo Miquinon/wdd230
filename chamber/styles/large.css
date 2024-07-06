@@ -91,6 +91,7 @@ header h1{
     height: 125px;
     width: 85%;
     margin-left: 7%;
+    border-radius: 45px;
     
 }
 
@@ -162,7 +163,7 @@ header h1{
 #menu{
     display: block;
     position:absolute;
-    top:30px;
+    top:85px;
     right: 30px;
     background-color: #401201;
     color:#EBEBEB;
@@ -206,6 +207,10 @@ header h1{
         width: 400px;
     }
 
+    .membership h2{
+        font-size: xx-large;
+    }
+
     #join input[type="text"],
     #join input[type="email"],
     #join input[type="tel"],
@@ -230,7 +235,7 @@ header h1{
     }
 
     #join legend{
-        font-size: larger;
+        font-size: xx-large;
     }
 
     #join label{
@@ -277,7 +282,7 @@ header h1{
     }
     .list section{
         display: block;
-        margin-left: 0;
+        margin-left: 10%;
         margin-right: 10%;
     }
 
