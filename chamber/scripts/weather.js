@@ -94,7 +94,10 @@ function displayWindChill(data) {
   const windSpeed = data.wind.speed;
 
   const windChill = calculateWindChill(currentTemp, windSpeed);
-  windchillSection.innerHTML = `Wind Chill: ${windChill.toFixed(1)}&deg;F, Wind Speed: ${windSpeed} mph`;
+  const roundedWindChill = Math.round(windChill); // Round wind chill to nearest whole number
+  const roundedWindSpeed = Math.round(windSpeed); // Round wind speed to nearest whole number
+
+  windchillSection.innerHTML = `Wind Chill: ${roundedWindChill}&deg;F, Wind Speed: ${roundedWindSpeed} mph`;
 }
 
 function calculateWindChill(temp, windSpeed) {
