@@ -217,7 +217,7 @@ header h1{
 
 
 .weather{display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 300px 300px 1fr;
     column-gap: 20px;
     text-align: center;
     width: 70%;
@@ -240,7 +240,7 @@ header h1{
 }
 
 .weather h4, #forecast-container{
-    grid-column: 2/2;
+    grid-column: 3/3;
 }
 
 .weather h4, .weather p{
@@ -250,6 +250,20 @@ header h1{
 
 .weather p{
     font-weight: 700;
+}
+
+#windchill{
+    border: 2px solid #401201;
+    margin-top: -85px;
+}
+
+.wind{display: grid;
+    grid-column: 2/2;
+    
+}
+.wind p{
+    margin-top: -20px;
+    align-self: flex-start;
 }
 
 #current-temp, #weather-icon, figcaption{
@@ -262,7 +276,7 @@ header h1{
 
 #temp-container{
     grid-row: 2/3;
-    align-content: end;
+    align-content: center;
     padding-bottom: 20px;
     border: 2px solid #401201;
 }

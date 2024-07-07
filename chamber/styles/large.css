@@ -155,7 +155,7 @@ header h1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 800px;
+    height: 1000px;
 }
 
 .weather p{
@@ -164,6 +164,21 @@ header h1{
 
 .weather h4{
     align-self: center;
+}
+
+#current-temp{
+    padding-top: 20px;
+}
+
+.wind p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#windchill{
+    margin: 0;
+    padding-bottom: 50px;
+    
 }
 
 #forecast-container{
