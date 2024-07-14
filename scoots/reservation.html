@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="WDD 230 - Scoots Final Project Website">
+        <meta property="og:type" content="website">
+        <meta property="og:image"
+        content="images/cozumel.webp">
+        <meta property="og:url" content="https://miquinon.github.io/wdd230/scooots/index.html/">
+        <title>"Maria Quinonez - WDD 230 -Scoots Final Project"</title>
+        <meta author="Maria Quinonez" description="WDD 230 - Web Frontend Development Scoots Final Project">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/scoots-logo.webp" alt="scoots logo">
+            <h1>Scoots</h1>
+
+        </header>
+
+        <button id="hamButton" name="hamburger button"></button>
+
+        <nav>
+            <ul class="navigation">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="rental.html" target="_blank">Rentals</a></li>
+                <li> <a href="reservation.html" target="_blank">Reservations</a></li>
+                <li> <a href="contact.html" target="_blank">Contact Us</a></li>
+
+            </ul>    
+        </nav>
+
+        <main>
+                
+            <div class="reserve">
+
+                <img src="images/reservations.webp" alt="people at the beach in a jeep">
+                <h2 class="reservations">Reservations</h2>
+
+
+            </div>
+
+
+
+            <section>
+                <h2 class="agreement">Rental Agreement</h2>
+                <p>List of regulations and rules</p>
+
+            </section>
+
+            <section>
+                <h1>Rental Form</h1>   
+                    <form method="get" action="record.html" class="page-rating">
+                        <fieldset>
+                            <legend>Log In</legend>
+                                <label> User Name* <input type="text" id="user-name" name="name" required></label>
+                                <label> Password* <input type="password" id="password" name="password" pattern=".{8,}" required 
+                                    placeholder="Must be 8 characters or more/ no numbers"></label>
+                                <label>Confirm Password* <input type="password" id="confirm" name="confirmation" 
+                                pattern=".{8,}" required placeholder="Re-enter Password"></label>
+                                <label>Email* <input type="email" id="email" name="email" placeholder="Your byui email address" 
+                                    title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
+    
+                       
+                        </fieldset>
+                    </form>
+            </section>
+
+        </main>
+
+        <footer>
+
+            <p>
+                &copy;<span id="copy-right-year"></span>Maria Quinonez WDD 230 Scoots Project
+              </p>
+              <p id="last-modified">
+      
+              </p>
+           
+
+
+        </footer>
+
+        <script src=""></script>
+        <script src=""></script>
+        <script src=""></script>
+
+    </body>        
+</html>

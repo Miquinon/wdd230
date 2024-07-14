@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="WDD 230 - Scoots Final Project Website">
+        <meta property="og:type" content="website">
+        <meta property="og:image"
+        content="images/cozumel.webp">
+        <meta property="og:url" content="https://miquinon.github.io/wdd230/scooots/index.html/">
+        <title>"Maria Quinonez - WDD 230 -Scoots Final Project"</title>
+        <meta author="Maria Quinonez" description="WDD 230 - Web Frontend Development Scoots Final Project">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+<body>
+        <header>
+            <img src="images/scoots-logo.webp" alt="scoots logo">
+            <h1>Scoots</h1>
+
+        </header>
+
+        <button id="hamButton" name="hamburger button"></button>
+
+        <nav>
+            <ul class="navigation">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="rental.html" target="_blank">Rentals</a></li>
+                <li> <a href="reservation.html" target="_blank">Reservations</a></li>
+                <li> <a href="contact.html" target="_blank">Contact Us</a></li>
+
+            </ul>    
+        </nav>
+        <main>
+            <section class="contact">
+
+                <img src="images/contact.webp" alt="a phone with a cord">
+                <h2>How can I help?</h2>
+
+            </section>
+
+            <div class="information">
+
+                <h3>Contact Information</h3>
+                <p>Phone Number: 673-234-9876</p>
+                <p>Address: 1234 calle 8, Cozumel, Mexico</p>
+                <p>Email Address: scoots4all@gmail.com</p>
+
+            </div>
+
+            <div class="form">
+
+                <form method="get" action="thankyou.html" class="page-rating">
+                    <fieldset>
+                        <legend>Log In</legend>
+                            <label> User Name* <input type="text" id="user-name" name="name" required></label>
+                            <label> Password* <input type="password" id="password" name="password" pattern=".{8,}" required 
+                                placeholder="Must be 8 characters or more/ no numbers"></label>
+                            <label>Confirm Password* <input type="password" id="confirm" name="confirmation" 
+                             pattern=".{8,}" required placeholder="Re-enter Password"></label>
+                            <label>Email* <input type="email" id="email" name="email" placeholder="Your byui email address" 
+                                title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
+
+                   
+                    </fieldset>
+
+                    <input type="submit" value="Process My Rating">
+
+                </form>
+            </div>
+
+       
+            <div class="locations">
+                <p class="location-1">Location 1</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119490.61482532986!2d-87.07307956710693!3d20.62552587527495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e4323d22d4e61%3A0xe8c10b783bab4adc!2sPlaya%20del%20Carmen%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1720477125870!5m2!1sen!2sus" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <p class="location-2">Location 2</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1748.099381500329!2d-86.97482962667755!3d20.475748867087464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1720475492541!5m2!1sen!2sus" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </main>
+
+        <footer>
+
+            <p>
+                &copy;<span id="copy-right-year"></span>Maria Quinonez WDD 230 Scoots Project
+              </p>
+              <p id="last-modified">
+      
+              </p>
+           
+
+
+        </footer>
+
+        <script src=""></script>
+        <script src=""></script>
+        <script src=""></script>
+
+
+
+
+
+    </body>
+</html>
