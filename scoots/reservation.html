@@ -19,7 +19,7 @@
 
     <body>
         <header>
-            <img src="images/scoots-logo.webp" alt="scoots logo">
+            <img src="images/scoots-logo.webp" alt="scoots logo" class="logo">
             <h1>Scoots</h1>
 
         </header>
@@ -28,7 +28,7 @@
 
         <nav>
             <ul class="navigation">
-                <li> <a href="index.html">Home</a></li>
+                <li> <a href="index.html" target="_blank">Home</a></li>
                 <li> <a href="rental.html" target="_blank">Rentals</a></li>
                 <li> <a href="reservation.html" target="_blank">Reservations</a></li>
                 <li> <a href="contact.html" target="_blank">Contact Us</a></li>
@@ -41,35 +41,91 @@
             <div class="reserve">
 
                 <img src="images/reservations.webp" alt="people at the beach in a jeep">
-                <h2 class="reservations">Reservations</h2>
 
+                <div class="overlay">
+                    <h2>Reservations</h2>
+    
+                </div>
 
             </div>
 
+            
 
+            <section class="agree">
+                <h2 class="agreement">Rental Services and Agreement</h2>
+                <ul>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li> A valid drivers license is required in hand at the time of rental.</li>
+                    <li> No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge is not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is included.</li>
+                    <li>Damage insurance is available for purchase.</li>
+                    <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                    <li>Rentals may be returned to either physical location.</li>
+                    <li>Full day is 6 hours - Half day is 3 hours.</li>
 
-            <section>
-                <h2 class="agreement">Rental Agreement</h2>
-                <p>List of regulations and rules</p>
+                </ul> 
+           
 
-            </section>
+                <section class="res-form">
+                    <h2>Reservation Form</h2>   
+                        <form method="get" action="submit.html" id="reserve-form">
+                            <fieldset>
+                                <legend>Reserve Rental</legend>
+                                    <label> First Name* <input type="text" id="first-name" name="name" required></label>
+                                    <label> Last Name* <input type="text" id="last-name" name="name" required></label>
+                                    <label>Mobile Number* <input type="tel" id="mobile" name="mobile-number" required></label>
+                                    <label>Email* <input type="email" id="email" name="email" placeholder=" scoots4all@gmail.com" 
+                                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$]" required></label>
+                                    <label> State Name* <input type="text" id="state-name" name="name" required></label>
+                                    <label> Country Name* <input type="text" id="country-name" name="name" required></label>
+                                    <label> Cuise Line <input type="text" id="cruise-name" name="name" required></label>
 
-            <section>
-                <h1>Rental Form</h1>   
-                    <form method="get" action="record.html" class="page-rating">
-                        <fieldset>
-                            <legend>Log In</legend>
-                                <label> User Name* <input type="text" id="user-name" name="name" required></label>
-                                <label> Password* <input type="password" id="password" name="password" pattern=".{8,}" required 
-                                    placeholder="Must be 8 characters or more/ no numbers"></label>
-                                <label>Confirm Password* <input type="password" id="confirm" name="confirmation" 
-                                pattern=".{8,}" required placeholder="Re-enter Password"></label>
-                                <label>Email* <input type="email" id="email" name="email" placeholder="Your byui email address" 
-                                    title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
-    
+                                    <label>Rental Choice
+                                        <select name="vehicle">
+                                            <option value="">Please Select</option>
+                                            <option value="scooter">Scooter #1</option>   
+                                            <option value="scooter">Scooter #2</option> 
+                                            <option value="scooter">Scooter #3</option>
+                                            <option value="avt">ATV</option>
+                                            <option value="jeep">Jeep Wrangler 2 Door</option>
+                                            <option value="jeep">Jeep Wrangler 4 door</option>
+                                        </select>
+                                    </label>
+                                    <label>Quantity
+                                        <select name="quantity">
+                                            <option value="">Please Select</option>
+                                            <option value="1">1</option>   
+                                            <option value="2">2</option> 
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </label>
+
+                                    <label>Rental Start Date<input type="date" id="date"></label>
+                                    <label>Rental End Date<input type="date" id="date"></label>
+                                    <label>Rental Hours
+                                        <select name="h/w">
+                                            <option value="">Please Select</option>
+                                            <option value="half">Half Day</option>   
+                                            <option value="full">Full Day</option> 
+                                        </select>
+                                    </label>
                        
-                        </fieldset>
-                    </form>
+                                    <label class="description">Comments/Special Accomodations</label>
+                                    <textarea name="area" id="area" rows="6"></textarea>
+                            </fieldset>
+
+                            <input type="hidden" id="time" name="time" value="">
+                            <input type="submit"  id="submit" value="Complete Reservation"> 
+
+                        </form>
+                </section>
+
             </section>
 
         </main>
@@ -77,13 +133,15 @@
         <footer>
 
             <p>
-                &copy;<span id="copy-right-year"></span>Maria Quinonez WDD 230 Scoots Project
+                &copy;<span id="copy-right-year"></span>Maria Quinonez &nbsp;&nbsp;&nbsp;&nbsp;WDD 230 &nbsp;&nbsp;&nbsp;&nbsp;Scoots Project
               </p>
               <p id="last-modified">
       
-              </p>
+            </p>
            
-
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp" alt="facebook icon" class="fb"></a>
+            <a href="https://www.instagram.com/accounts/emailsignup/" target="_blank"><img src="images/instagram.webp" alt="instagram icon" class="ig"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter.webp" alt="twitter icon" class="tw"></a>
 
         </footer>
 
