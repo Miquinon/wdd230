@@ -64,7 +64,7 @@ h1{
 }
 
 .summary{
-    background-color: #75BBEB;
+    background-color: #25A9E5;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +93,7 @@ h1{
     display: grid;
     grid-template-columns: 50px 1fr 150px;
     justify-content: flex-end;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
@@ -133,6 +133,7 @@ h1{
 .con-info{
     background-color: #25A9E5;
     height: 100px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 60%;

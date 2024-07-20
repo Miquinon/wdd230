@@ -1,0 +1,54 @@
+{
+    "options":[
+
+        {
+            "image": "images/atv1.webp",
+            "name": "Honda Pioneer ATV",
+            "half-reserve": "Half Day: $50 with reservation",
+            "half-walkin": "Half Day: $60 without reservation",
+            "full-reserve": "Full Day: $70 with reservation",
+            "full-walkin": "Full Day: $80 without reservation"
+
+        },
+        {
+            "image": "images/jeep1.webp",
+            "name": "Jeep Wrangler-2 Door",
+            "half-reserve": "Half Day: $60 with reservation",
+            "half-walkin": "Half Day: $70 without reservation",
+            "full-reserve": "Full Day: $85 with reservation",
+            "full-walkin": "Full Day: $90 without reservation"
+        },
+        {
+            "image": "images/jeep2.webp",
+            "name": "Jeep Wrangler-4 Door with a/c",
+            "half-reserve": "Half Day: $70 with reservation",
+            "half-walkin": "Half Day: $85 without reservation",
+            "full-reserve": "Full Day: $100 with reservation",
+            "full-walkin": "Full Day: $125 without reservation"
+        },
+        {
+            "image": "images/scooter1.webp",
+            "name": "Honda Metro Scooter",
+            "half-reserve": "Half Day: $20 with reservation",
+            "half-walkin": "Half Day: $25 without reservation",
+            "full-reserve": "Full Day: $30 with reservation",
+            "full-walkin": "Full Day: $35 without reservation"
+        },
+        {
+            "image": "images/scooter2.webp",
+            "name": "Honda Dio Scooter",
+            "half-reserve": "Half Day: $30 with reservation",
+            "half-walkin": "Half Day: $35 without reservation",
+            "full-reserve": "Full Day: $40 with reservation",
+            "full-walkin": "Full Day: $45 without reservation"
+        },
+        {
+            "image": "images/scooter3.webp",
+            "name": "Honda PCX150 Scooter",
+            "half-reserve": "Half Day: $40 with reservation",
+            "half-walkin": "Half Day: $45 without reservation",
+            "full-reserve": "Full Day: $50 with reservation",
+            "full-walkin": "Full Day: $55 without reservation"
+        }
+    ]
+}
