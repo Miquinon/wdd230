@@ -1,7 +1,8 @@
 /* colors: 
 37, 169, 229  (25A9E5)dark blue
 117, 187, 235 (75BBEB) light blue
-242, 204, 143 (F2CC8F) sand */
+242, 204, 143 (F2CC8F) sand 
+#3B3B3B-black  #0A435C-d-blue  #004700d-green*/
 
 /* Home Page styles */
 
@@ -30,7 +31,7 @@ h1{
     align-self: center;
     font-size: 200px;
     margin: 15px;
-    color: #25A9E5;
+    color: #0A435C;
 
 }
 
@@ -47,7 +48,7 @@ h1{
 
 .navigation a{
     text-decoration: none;
-    color: white;
+    color:#0A435C;
     font-size: 25px;
 }
 
@@ -143,7 +144,7 @@ h1{
     text-align: center;
     padding: 10px;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 
 .locations{
@@ -226,6 +227,7 @@ footer{display: flex;
 
 footer p{
     font-size: 20px;
+    color: #0A435C;
 }
 
 .fb, .tw, .ig{
@@ -437,3 +439,81 @@ textarea{
     font-size: 60px; 
     text-align: center;
 }
+
+/* rental styles */
+
+.rental{
+    position: relative;
+  display: inline-block;
+  color: #0A435C;
+}
+
+.rental-hero{
+    display: block;
+    margin-right: 350px ;
+    margin-left: 100px;
+    width: 90%;
+}
+
+.overlay-rent{
+    position: absolute;
+    top: 25%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 10px 20px; 
+    font-size: 60px; 
+    text-align: center;
+}
+
+#vehicle-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1300px;
+    border-top: 5px solid #25A9E5;
+    border-bottom: 5px solid #25A9E5;
+   
+}
+
+#option-container section{
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-right: 2px solid #25A9E5;
+    border-left: 2px solid #25A9E5;
+    margin-right: 5px;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table{
+    text-align: center;
+    width: 1000px;
+    height: 450px;
+    font-size: 20px;
+    background-color: #F2CC8F;
+    border-spacing: 10px;
+
+}
+
+table th{
+    text-align: center;
+    
+}
+
+table tr{
+    background-color: white;
+}
+

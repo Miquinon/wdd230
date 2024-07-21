@@ -18,12 +18,12 @@
     </head>
     <body>
         <header>
-            <img src="images/scoots-logo.webp" alt="scoots logo" class="logo">
+            <img src="images/scoots-logo.webp" alt="scoots logo" class="logo" height="75">
             <h1>Scoots</h1>
 
         </header>
 
-        <button id="hamButton" name="hamburger button"></button>
+        <button id="hambutton" name="hamburger button"></button>
 
         <nav>
             <ul class="navigation">
@@ -37,33 +37,39 @@
 
         <main>
             <div class="rental">
-                <img src="images/rentals.webp" alt="people on scooters by the beach">
-                <h2 class="rentals">Rentals</h2>
+                <img src="images/rentals.webp" class="rental-hero" alt="people on scooters by the beach" width="1200" height="700">
                
+               <div class="overlay-rent"> 
+                    <h2 class="rentals">Rentals</h2>
+               </div>  
                     
             </div>
                 
-            <div id="member-info">
+            <div id="vehicle-info">
 
-                <div id="member-container" class="grid">
+                <div id="option-container" class="grid">
         
                 </div>
         
             </div>
                 
 
-            <div class="table">
+            <div class="table-container">
                 <table>
                     <tr>
-                        <th>Max Rental Pricing</th>
+                        
+                        <th colspan="6">Max Rental Availability</th>
+                        
                     </tr>
 
                     <tr>
-                        <th></th>
-                        <th>Reservation</th>
-                        <th>Walk-In</th>
+                        
+                        <th colspan="3">Reservation Availability</th>
+                        
+                        
+                        <th colspan="3">Walk-In Availability</th>
                     </tr>
-
+                
                     <tr>
                         <th>Rental Type</th>
                         <th>Max. Persons</th>
@@ -76,55 +82,55 @@
                     <tr>
                         <td>~Honda Metro Scooter</td>
                         <td>1</td>
-                        <td>$20</td>
-                        <td>$30</td>
-                        <td>$25</td>
-                        <td>$35</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
                     </tr>
 
                     <tr>
                         <td>~Honda Dio Scooter</td>
                         <td>2</td>
-                        <td>$30</td>
-                        <td>$40</td>
-                        <td>$35</td>
-                        <td>$45</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
                     </tr>
 
                     <tr>
                         <td>~Honda PCX150 Scooter</td>
                         <td>2</td>
-                        <td>$40</td>
-                        <td>$50</td>
-                        <td>$45</td>
-                        <td>$55</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
                     </tr>
 
                     <tr>
                         <td>Honda Pioneer ATV</td>
                         <td>4</td>
-                        <td>$50</td>
-                        <td>$70</td>
-                        <td>$60</td>
-                        <td>$80</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
+                        <td> &#10003;</td>
+                        <td> &#10003;</td>
                     </tr>
 
                     <tr>
                         <td>Jeep Wrangler - 4 door with a/c</td>
                         <td>5</td>
-                        <td>$70</td>
-                        <td>$100</td>
-                        <td>$85</td>
-                        <td>$125</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
+                        <td> &#10003;</td>
+                        <td> &#10003;</td>
                     </tr>
 
                     <tr>
                         <td>Jeep Wrangler - 2 door</td>
                         <td>4</td>
-                        <td>$60</td>
-                        <td>$85</td>
-                        <td>$70</td>
-                        <td>$90</td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
+                        <td> &#10003;</td>
+                        <td> &#10003;</td>
                     </tr>
 
                 </table>
@@ -144,7 +150,7 @@
        
         </footer>
     
-            <script src=""></script>
+            <script src="scripts/rentals.js"></script>
             <script src=""></script>
             <script src=""></script>
 
