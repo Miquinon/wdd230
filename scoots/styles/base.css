@@ -317,7 +317,7 @@ footer p{
 
 /* submit styles */
 
-.submit{display: flex;
+.submit, .thankyou{display: flex;
     align-items: center;
     justify-content: center;
     height: 400px;
@@ -329,10 +329,14 @@ footer p{
     font-size: 30px;
     text-align: center;
     background-color: #F2CC8F;
-    color: #25A9E5;
+    color: black;
     border-radius: 20px;
-    text-shadow: 1px 1px black;
+    
 }
+
+/* thank you styles */
+
+
 
 
 /* Reservation styles */

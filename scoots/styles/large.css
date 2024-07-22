@@ -5,7 +5,7 @@
         text-align: center;
         font-size: 80px;
         height: 225px;
-        width: 100%;
+        width:100%;
     }
 
     .logo{
@@ -63,7 +63,7 @@
         display: block;
         width: 100%;
 
-}
+    }
 
     .hero-1 img{
         margin-top: 50px;
@@ -170,5 +170,157 @@
     }
 
 
+}
+/* rentals page styling */
+@media (max-width: 640px){
+
+    .rental{
+        display: block;
+    }
+    .rental-hero{
+        width: 400px;
+        height: 200px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .overlay-rent{
+        font-size: 40px;
+        
+    }
+
+    .grid {
+        display: block;
+        margin-left: 0;
+        border-bottom: none;
+        border-top: none;
+    }
+
+    #option-container section{
+        border-right: none;
+        border-left: none;
+        border-top: 5px solid #25A9E5;
+        padding-top: 20px;
+    }
+
+    table{
+        font-size: 18px;
+        width: 500px;
+    }
 
 }
+
+/* reservation styling */
+    @media (max-width: 640px){
+
+    .reserve{
+        height: 250px;
+        margin-top: 30px;
+    }
+     .reserve img{
+        width: 450px;
+        height: 200px;
+        margin-left: 15px;
+     }   
+
+     .overlay h2{
+        position: relative;
+        font-size: 40px;
+        top: -40px;
+        right: 150px;
+        margin-left: 0;
+
+     }
+
+     .agree{
+        display: block;
+        margin-left: 20px;
+        width: 400px;
+     }
+
+    .res-form h2 {
+        margin-top: 40px;
+    }
+
+     .agree fieldset{
+        width: 375px;
+        margin-left: -25px;
+
+     }
+
+     #reserve-form input, textarea, #reserve-form select {
+        width: 90%;
+     }
+
+    }
+
+/* contact page syling */
+@media(max-width: 640px){
+    .contact-hero{
+        display: block;
+      
+    }
+
+    .contact-hero img{
+        margin-left: 20px;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .contact-hero .overlay h2{
+        font-size: 35px;
+        text-align: center;
+        top: -10px;
+        right: 70px;
+    }
+
+    .c-form{
+        display: block;
+    }
+
+    .information-1, .information-2{
+        display: block;
+    }
+
+    .information-2{
+        margin-top: 60px;
+    }
+
+    .form{
+        margin-top: 40px;
+        width: 375px;
+    }
+
+    .contact-us fieldset input{
+        width: 90%;
+    }
+
+}
+
+/* submit anf thank you styling */
+@media(max-width: 640px){
+    .submit, .thankyou{
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+        padding-top: 30px;
+        font-size: 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
