@@ -10,7 +10,8 @@ h1, h2, .con-info, h3{
     font-family: Bodoni MT Std, serif;
 }
 
-a, .summary p, .rent, .weather h3, p, li, legend, label, select, #submit{
+a, .summary p, .rent, .weather h3, p, li, legend, label, select, #submit, 
+#current-weather, #next-day-weather{
     font-family: Avenir, sans-serif;
 }
 
@@ -48,7 +49,7 @@ h1{
 
 .navigation a{
     text-decoration: none;
-    color:#0A435C;
+    color:black;
     font-size: 25px;
 }
 
@@ -64,6 +65,42 @@ h1{
     width: 85%;
 }
 
+#banner{
+    display: block;
+    margin-right: auto ;
+    margin-left: auto;
+    margin-top: 30px;
+    width: 85%;
+    height: 125px;
+    background-color: #F2CC8F;
+    border-radius: 20px;
+}
+
+#banner p{ padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+#high-temp{
+    font-weight: 800;
+}
+
+.close-btn{
+    position: absolute;
+    top: 1075px;
+    right: 175px;
+    font-size: 25px;
+    width: 30px;
+    border: 2px solid #0A435C;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close-btn:hover{
+    color: #25A9E5;
+}
+
 .summary{
     background-color: #25A9E5;
     height: 200px;
@@ -71,7 +108,7 @@ h1{
     margin-right: auto;
     width: 90%;
     display: flex;
-    margin-top: 15px;
+    margin-top: 30px;
     align-items: center;
     align-content: center;
 }
@@ -154,7 +191,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    
+    margin-bottom: 50px;
 }
 
 .location-1{
@@ -201,7 +238,10 @@ h1{
 }
 
 .weather{
-    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+    height: 400px;
     background-color: #F2CC8F;
     margin-left: auto;
     margin-right: auto;
@@ -212,6 +252,46 @@ h1{
 .weather h3{
     text-align: center;
     font-size: 30px;
+}
+
+.today{
+    grid-column: 1/3;
+}
+
+.next{
+    grid-column: 3/span2;
+    grid-row: 1/1;
+}
+
+#current-weather{
+    grid-row: 2/2;
+    grid-column: 1/3;
+    justify-self: center;
+    border: 2px solid #0A435C;
+    line-height: 30px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#next-day-weather{
+    grid-row: 2/2;
+    grid-column: 3/span2;
+    justify-self: center;
+    border: 2px solid #0A435C;
+    line-height: 30px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 12px;
+}
+
+#next-day-icon, #next-day-temp, #next-day-desc, #next-day-humidity, #next-day-wind-speed{
+    margin: 5px;
+}
+
+#current-temp, #next-day-temp{
+    font-weight: 800;
 }
 
 footer{display: flex;
@@ -227,7 +307,7 @@ footer{display: flex;
 
 footer p{
     font-size: 20px;
-    color: #0A435C;
+    color: black;
 }
 
 .fb, .tw, .ig{
@@ -278,6 +358,7 @@ footer p{
     padding: 10px 20px; 
     font-size: 60px; 
     text-align: center;
+    color: #0A435C;
 }
 
 .agree{
@@ -438,6 +519,7 @@ textarea{
     padding: 10px 20px; 
     font-size: 60px; 
     text-align: center;
+    color: #0A435C;
 }
 
 /* rental styles */

@@ -41,6 +41,12 @@
                 <img src="images/home.webp" alt="cozumel beach">
             </div>
 
+            <div id="banner" class="banner">
+                <p>Welcome to Scoots in Cozumel, Mexico!</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Today's High Temp: <span id="high-temp"></span></p>
+                <span id="close-banner" class="close-btn">X</span>
+            </div>
+
            <div class="summary">
                 <p>Renting scooters, ATVs, and Jeep Wranglers can be a convenient way to explore Cozumel, especially 
                     while you're on vacation or traveling around the beaches. These options provide flexibility and independence 
@@ -76,11 +82,28 @@
 
             <section class="weather">
 
-                <h3>Weather Forecast</h3>
+                <h3 class="today">Today's Weather Forecast</h3>
 
+                <div id="current-weather">
+                    <p id="current-temp"></p>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                    <div id="windchill"></div>
+                    <div id="humidity"></div>  
+                  </div>
+
+                  <h3 class="next">Next Day Weather Forecast</h3>
+
+                  <div id="next-day-weather">
+                        <p id="next-day-temp"></p>
+                        <img id="next-day-icon" src="" alt="">
+                        <p id="next-day-desc"></p>
+                        <p id="next-day-humidity"></p> 
+                        <p id="next-day-wind-speed"></p>  
+                  </div>
+                  
+              
             </section>
-
-
         </main>
 
         <footer>
@@ -97,9 +120,8 @@
             <a href="https://x.com/" target="_blank"><img src="images/twitter.webp" alt="twitter icon" class="tw"></a>
         </footer>
 
-        <script src=""></script>
-        <script src=""></script>
-        <script src=""></script>
+        <script src="scripts/weather.js"></script>
+        <script src="scripts/high-temp.js"></script>
 
 
     </body>
