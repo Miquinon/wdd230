@@ -10,7 +10,7 @@ const nextDayHumidity = document.querySelector('#next-day-humidity');
 const nextDayWindSpeed = document.querySelector('#next-day-wind-speed'); // Added element for wind speed
 
 const apiKey = 'f3f6c3c27bb1d7aeac29f313cdd73695';
-const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=32.75&lon=-97.32&appid=${apiKey}&units=imperial`;
+const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=20.63&lon=-87.07&appid=${apiKey}&units=imperial`;
 
 async function fetchWeatherData(url) {
   try {

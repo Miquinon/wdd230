@@ -88,7 +88,7 @@ h1{
 
 .close-btn{
     position: absolute;
-    top: 1075px;
+    top: 1095px;
     right: 175px;
     font-size: 25px;
     width: 30px;
@@ -312,7 +312,7 @@ footer p{
 
 .fb, .tw, .ig{
     height: 50px;
-    border-radius: 15px;
+    border-radius: 6px;
 }
 
 /* submit styles */
