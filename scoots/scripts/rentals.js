@@ -2,10 +2,9 @@
 const display = document.querySelector("#option-container");
 
 // Fetch data from the JSON file
-fetch("data/option.json")  // Make sure this path is correct
+fetch("data/option.json")  
   .then((response) => response.json())
   .then((data) => {
-    // Process each option in the data
     data.forEach((option) => {
       // Create a new section element for each option
       const optionDiv = document.createElement("section");

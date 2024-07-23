@@ -9,7 +9,7 @@ async function fetchWeatherData(url) {
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
-      console.log('API Data:', data);  // Log the raw data for debugging
+      console.log('API Data:', data); 
       displayHighTemp(data);
     } else {
       throw new Error(await response.text());
@@ -37,11 +37,11 @@ function displayHighTemp(data) {
 
 // Add event listener to the close button
 closeButton.addEventListener('click', () => {
-  banner.classList.add('hide-banner');  // Add class to hide with animation
+  banner.classList.add('hide-banner');  
   setTimeout(() => {
-    banner.style.display = 'none';  // Hide the banner after the animation
-  }, 500);  // Match the duration of the CSS transition
+    banner.style.display = 'none';  
+  }, 500);  
 });
 
-// Fetch the weather data
+
 fetchWeatherData(forecastUrl);
