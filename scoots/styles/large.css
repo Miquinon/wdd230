@@ -88,7 +88,10 @@
     }
 
     .summary{
-        height: 525px;
+        display: block;
+        height: 800px;
+        width: 90%;
+        margin-left: 20px;
     }
 
     .summary p{
@@ -104,24 +107,22 @@
         font-size: 25px;
         padding-top: 20px;
         text-align: center;
+        padding-left: 30px;
+        margin-left: 10px;
     }
 
     .rent button{
         display: block;
         margin-top: 15px;
-        margin-left: -100px;
+        margin-left: 100px;
         padding: 5px;
         font-size: 20px;
 
     }
 
-    .con-info{
-        width: 85%;
-
-    }
-
-    .con-info h3{
+    .con-info p{
         font-size: 20px;
+        padding: 10px;
     }
 
     .locations{
@@ -307,16 +308,6 @@
         padding-top: 30px;
         font-size: 25px;
     }
-
-
-
-
-
-
-
-
-
-
 
 
 }
