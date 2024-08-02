@@ -63,7 +63,7 @@ function displayNextDayWeather(forecastData) {
   const nextDay = now.getDate() + 1;
   const nextDayForecast = forecastData.find(forecast => {
     const forecastDate = new Date(forecast.dt * 1000);
-    return forecastDate.getHours() === 15 && forecastDate.getDate() === nextDay;
+    return forecastDate.getHours() === 16 && forecastDate.getDate() === nextDay;
   });
 
   if (nextDayForecast) {
@@ -79,9 +79,9 @@ function displayNextDayWeather(forecastData) {
     nextDayDesc.textContent = desc;
     nextDayHumidity.innerHTML = `Humidity: ${humidity}%`;  
     nextDayWindSpeed.innerHTML = `Wind Speed: ${Math.round(windSpeed)} mph`;  
-  } else {
-    console.error('Next day forecast at 3 PM not found.');
-  }
+   } else {
+     console.error('Next day forecast at 3 PM not found.');
+   }
 }
 
 fetchWeatherData(forecastUrl);
